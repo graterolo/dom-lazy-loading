@@ -22,8 +22,8 @@ const createImageNode = () => {
     
     const container = document.createElement('div');
     container.className = "bg-gray-300";
-    container.style.minHeight = "320px";
-    container.style.minWidth = "320px";
+    container.style.minHeight = "200px";
+    container.style.minWidth = "200px";
     container.style.display = "inline-block";
 
     const imagen = document.createElement('img')
